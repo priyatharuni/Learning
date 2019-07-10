@@ -32,6 +32,7 @@ public class Register_Popup {
 		String alert = driver.switchTo().alert().getText();
 		System.out.println(alert);
 		driver.switchTo().alert().accept();
+		driver.quit();
 	       }
 	}
 		
