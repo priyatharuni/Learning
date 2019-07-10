@@ -1,0 +1,4 @@
+system.setproperty(key,value);
+driver.get();
+implicit wait(wait,TimeUnits)
+Explicit wait(WaitforCondition,TimeUnits)
